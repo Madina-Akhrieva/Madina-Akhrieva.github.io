@@ -1,0 +1,601 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.background_header {
+  height: 778px;
+  background-color: #02160b;
+}
+.main_background {
+  margin-top: 0 px;
+  height: 1368px;
+  background-color: #cccccc;
+}
+.background_footer {
+  margin-top: 2 px;
+  height: 360px;
+  background-color: #181617;
+}
+.center {
+  margin: 0 auto;
+  width: 1440px;
+}
+.survival {
+  position: absolute;
+  background-image: url(Images/Rectangle.png);
+  height: 780px;
+  width: 1440px;
+  margin: 0 auto;
+}
+.footer {
+  top: 2147px;
+  position: absolute;
+  width: 1440px;
+  height: 359px;
+  background-image: url(Images/Footer.jpg);
+}
+.fox {
+  position: absolute;
+  width: 1440px;
+  height: 780px;
+  left: 0px;
+  top: -1px;
+  background: url(.jpg);
+  border-radius: 0px;
+}
+.roga {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  left: 120px;
+  top: 19px;
+  border-radius: 0px;
+}
+.ul_style {
+  color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.Wildlife_word {
+  position: absolute;
+  width: 155px;
+  height: 60px;
+  left: 205px;
+  top: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+.Wildlife_footer_word {
+  position: absolute;
+  width: 155px;
+  height: 60px;
+  left: 205px;
+  top: 150px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.Word_survival {
+  position: absolute;
+  width: 199px;
+  height: 72px;
+  left: 120px;
+  top: 199px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #cd6326;
+}
+.Text {
+  position: absolute;
+  width: 274px;
+  height: 108px;
+  left: 120px;
+  top: 322px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f7f7f7;
+}
+.Orange_rectungle {
+  position: absolute;
+  width: 160px;
+  height: 60px;
+  left: 120px;
+  top: 479px;
+  background: #cd6326;
+  border-radius: 5px;
+}
+.Button_Donate {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 76px;
+  top: 16px;
+  left: 42px;
+  height: 27px;
+  font-family: Roboto;
+  font-size: 23px;
+  background-color: transparent;
+  border-style: none;
+}
+.Donate {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.UP_LIST {
+  margin-left: 500px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+.main {
+  position: absolute;
+  width: 1440px;
+  height: 1368px;
+  top: 778px;
+  background-color: #cccccc;
+}
+.Latest_articles {
+  position: absolute;
+  width: 324px;
+  height: 72px;
+  left: 558px;
+  top: 120px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+}
+.Breaking_news {
+  position: absolute;
+  width: 332px;
+  height: 36px;
+  left: 554px;
+  top: 212px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+}
+.Deer {
+  position: absolute;
+  width: 300px;
+  height: 360px;
+  left: 210px;
+  top: 368px;
+  background-image: url(Images/Deer.jpg);
+  border-radius: 0px;
+}
+.Squirrel {
+  position: absolute;
+  width: 300px;
+  height: 360px;
+  left: 570px;
+
+  top: 368px;
+
+  background-image: url(Images/Belka.svg);
+
+  border-radius: 0px;
+}
+.Bird {
+  position: absolute;
+  width: 300px;
+  height: 360px;
+  left: 930px;
+  top: 368px;
+  background-image: url(Images/Bird.jpg);
+  border-radius: 0px;
+}
+.Animals_title {
+  position: absolute;
+  margin-top: 248px;
+  margin-left: 123px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #f7f7f7;
+}
+.Text_deer {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+
+  text-align: center;
+
+  margin-top: 293px;
+
+  color: #f7f7f7;
+}
+.Text_squirrel {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+
+  text-align: center;
+
+  margin-top: 293px;
+
+  color: #f7f7f7;
+}
+.Text_bird {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+
+  text-align: center;
+
+  margin-top: 293px;
+
+  color: #f7f7f7;
+}
+.main_text {
+  position: absolute;
+  width: 526px;
+  height: 41px;
+  left: 457px;
+  top: 967px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+}
+.wildlife_footer {
+  position: absolute;
+  color: #f7f7f7;
+  width: 155px;
+  height: 60px;
+  left: 500px;
+  top: 2297px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.Enter {
+  position: absolute;
+  width: 510px;
+  height: 60px;
+  left: 405px;
+  top: 1069px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  background-color: #cccccc;
+  color: #666666;
+}
+.Blog {
+  text-decoration: none;
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  left: 840px;
+  top: 19px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #f7f7f7;
+}
+.Sign_in {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.Contacts {
+  position: absolute;
+  text-decoration: none;
+  width: 96px;
+  height: 60px;
+  left: 951px;
+  top: 19px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #f7f7f7;
+}
+.Lupa {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-right: 900px;
+  left: 1107px;
+  top: 33px;
+  border-radius: 0px;
+}
+.Button_sign_in {
+  position: absolute;
+  width: 74px;
+  height: 48px;
+  left: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border-style: none;
+  color: #f7f7f7;
+}
+.Sign_up_div {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 1200px;
+  top: 26px;
+
+  border: 2px solid #cd6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.Blog:hover,
+.Blog:focus,
+.Blog:active {
+  opacity: 75%;
+}
+.Contacts:hover,
+.Contacts:focus,
+.Contacts:active {
+  opacity: 75%;
+}
+.Lupa:hover,
+.Lupa:focus,
+.Lupa:active {
+  opacity: 75%;
+}
+.Strelka:hover,
+.Strelka:focus,
+.Strelka:active {
+  opacity: 75%;
+}
+.Articles:hover,
+.Articles:focus,
+.Articles:active {
+  color: #cd6326;
+}
+.About_us:hover,
+.About_us:focus,
+.About_us:active {
+  color: #cd6326;
+}
+.Learn_more:hover,
+.Learn_more:focus,
+.Learn_more:active {
+  color: #cd6326;
+}
+.Sign_in:hover {
+  color: #cd6326;
+  text-decoration: underline;
+}
+.Donate:hover {
+  text-decoration: underline; /* Добавляем подчеркивание */
+}
+.Right_strelka {
+  position: absolute;
+  width: 30px;
+  height: 70px;
+  left: 1290px;
+  top: 513px;
+
+  border-radius: 0px;
+}
+.Left_strelka {
+  position: absolute;
+  width: 30px;
+  height: 70px;
+  left: 120px;
+  top: 513px;
+
+  border-radius: 0px;
+}
+.Enter_email {
+  margin-top: 1048px;
+  margin-left: 389px;
+  height: 56px;
+  width: 540px;
+  padding-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: #cccccc;
+  /* font-grey */
+
+  color: #666666;
+}
+.Text_send {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  left: 930px;
+  top: 1074px;
+}
+.Button_send {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 34px;
+  color: #f7f7f7;
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  left: 930px;
+  margin-top: 1048px;
+  background: #cd6326;
+  border: 1px solid #cd6326;
+  border-radius: 0px 5px 5px 0px;
+}
+.Button_send:hover {
+  text-decoration: underline; /* Добавляем подчеркивание */
+}
+.roga_footer {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  margin-left: 121.07px;
+  margin-top: 150.8px;
+}
+.Articles {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  left: 480px;
+  top: 150px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #f7f7f7;
+}
+.About_us {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 646px;
+  top: 150px;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #f7f7f7;
+}
+.Learn_more {
+  position: absolute;
+  width: 129px;
+  height: 60px;
+  left: 831px;
+  top: 150px;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #f7f7f7;
+}
+.Facebook {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1080px;
+  top: 160px;
+  text-decoration: none;
+  background: #f7f7f7;
+  border-radius: 20px;
+}
+.Instagram {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1147px;
+  top: 160px;
+
+  background: #f7f7f7;
+  border-radius: 20px;
+}
+.Paintrest {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1213px;
+  top: 160px;
+
+  background: #f7f7f7;
+  border-radius: 20px;
+}
+.Telegram {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1280px;
+  top: 160px;
+
+  background: #f7f7f7;
+  border-radius: 20px;
+}
+.Instagram:hover,
+.Instagram:focus,
+.Instagram:active {
+  opacity: 75%;
+}
+.Facebook:hover,
+.Facebook:focus,
+.Facebook:active {
+  opacity: 75%;
+}
+.Paintrest :hover,
+.Paintrest :focus,
+.Paintrest :active {
+  opacity: 75%;
+}
+.Telegram:hover,
+.Telegram:focus,
+.Telegram:active {
+  opacity: 75%;
+}
