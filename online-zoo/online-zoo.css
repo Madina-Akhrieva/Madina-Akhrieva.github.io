@@ -254,7 +254,7 @@ html {
     color: #4bd8b5;
   }
   .main{
-    background-image:url(/assets/first_screen.png);   
+    background-image:url(assets/first_screen.png);   
     top: 94px;
     position: relevant;
     width: 1920px;
@@ -424,7 +424,7 @@ html {
   border-radius: 5px;
  }
  .panda{
-   background-image:url(/assets/big_panda.png);
+   background-image:url(assets/big_panda.png);
   position: absolute;
   width: 245px;
   height: 352px;
